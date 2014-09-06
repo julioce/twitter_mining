@@ -18,7 +18,7 @@ $> mysql -u < create_and_insert_users.sql
 This will create the `twitter_mining` database and the `users` table in MySQL
 
 
-***Install requiremnts***
+***Install requirements***
 
 Install de requirements listed in requirements.txt
 
@@ -36,7 +36,7 @@ $> python get_users.py
 
 ```
 
-Wait for as long as you want. Every 6 hours the get_users.py will do it's work. You can set the sleep time in get_users.py.
+Wait for as long as you want. Every 6 hours the get_users.py will do it's work. You can set the sleep time (horas_sleep) in get_users.py
 
 
 
